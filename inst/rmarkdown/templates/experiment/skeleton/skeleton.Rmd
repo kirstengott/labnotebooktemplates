@@ -7,7 +7,7 @@ output:
     toc: true
     toc_float: true
     toc_depth: 2
-    theme: cerulean
+    theme: paper
     code_folding: hide
     code_download: TRUE
   pdf_document:
