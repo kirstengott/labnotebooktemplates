@@ -1,0 +1,35 @@
+---
+title: "Untitled"
+date: ""
+author: "Kirsten Gotting"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 2
+    theme: cerulean
+    code_folding: hide
+    code_download: TRUE
+  pdf_document:
+    toc: true
+    toc_depth: 2
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, error = FALSE, fig.keep="all")
+
+```
+
+# Hypothesis or Goal: Brief statement of purpose
+
+
+# Background
+
+
+# To Do
+
+
+
+# Completed Experiments

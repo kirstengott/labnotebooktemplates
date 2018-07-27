@@ -1,0 +1,65 @@
+---
+title: "Untitled"
+date: ""
+author: "Kirsten Gotting"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 2
+    theme: cerulean
+    code_folding: hide
+    code_download: TRUE
+  pdf_document:
+    toc: true
+    toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, error = FALSE, fig.keep="all")
+
+```
+
+# Hypothesis or Goal: Brief statement of purpose
+
+
+# Background
+
+
+# How: Protocols, calculations, reagents, equipment
+
+
+# Observations:
+
+  All that happens (planned or unplanned)
+
+# Raw experimental data
+
+  Taped in information or reference to data location
+
+```{r, results="asis", eval = FALSE, echo = FALSE}
+
+pander::pandoc.table()
+
+``` 
+
+```{r, results='asis', eval = FALSE, echo = FALSE}
+
+DT::datatable(extensions = c('Buttons', 'FixedHeader', 'Scroller'), options = list(
+    dom = 'frtBip',
+    buttons = c('copy', 'csv', 'excel', 'pdf', 'print'),
+    deferRender = TRUE,
+    scrollY = 200,
+    scroller = TRUE)
+    )
+
+```
+
+# Data analysis:
+  
+  Processing of raw data, graphs, interpretations
+  
+# Ideas for future experiments
+
+
+
